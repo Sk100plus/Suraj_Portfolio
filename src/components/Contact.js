@@ -79,7 +79,7 @@ export const Contact = () => {
                         <input
                           type="text"
                           value={formDetails.firstName}
-                          placeholder="First Name"
+                          placeholder="First Name Enter"
                           onChange={(e) => onFormUpdate('firstName', e.target.value)}
                           required
                         />
